@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Product Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-card">
+        <img class="product-image" src="flower.jpg" alt="Product Image">
+        <h2 class="product-name">Rose bouquet</h2>
+        <p class="product-description">A beautiful bouquet of fresh sunflower to brighten your day.</p>
+        <p class="product-price">₹ 200/-</p>
+      
+        <div class="quantity-control">
+          <button id="decrement">
+            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828906.png" alt="Minus Icon" class="icon">
+          </button>
+          <input id="quantity" type="text" value="1" readonly>
+          <button id="increment">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828926.png" alt="Plus Icon" class="icon">
+          </button>
+        </div>
+      
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  <script src="script.js"></script>
+</body>
+</html>
